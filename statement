@@ -1,0 +1,13 @@
+This assignment as disussed in the class aims to do modeling and interactive manipulation of a quadcopter drone with the following features.
+
+The modeling of a quadcopter needs to be represented as a hierarchical model with an articulated structure. The model can be seen as a Directed Acyclic Graph (DAG).
+The primitives to model the Drone can be from OpenGL primitves or imported. A typical model and its parts are shown in Figure 1.
+The hierarchical model defines a heirarchy where a transformation when applied to a node in the DAG its sub graph inherits the transformation.
+The manipulation module will involve defining some transformation of the Drone to cause translation and rotation. These manipulation may be done using keys of the key-board.
+The motion of the Drone can be done using parameters for rotations and translation as shown in Figure 2.
+A path of the Drone can be defined through a parametric curve. This path can be used for a pre-defined trajectory and motion of the Drone. In this mode you may not do any interactive maneuvering of the Drone.
+The camera needs to be added on the Drone, the view from this camera should be shown in another window.
+The Drone can be put in an enclosed environment such as a room or a scene of outdoor modelled using simple primitives such as planes, boxes. The scene can also be imported.
+The viewing and rendering is to be done using OpenGL. In one window the rendering should be done of the drone and its envrionment and in the second window the view of the camera on the drone. The rendering should be done using lighting and shading.
+The navigation of the Drone may be done using some heuristics to change the parameters of rotations and translations as indicated in Figure 2.
+Note: Figure 2 is taken from this reference.
