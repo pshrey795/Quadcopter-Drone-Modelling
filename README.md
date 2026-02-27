@@ -64,9 +64,7 @@ The drone is constructed using a scene graph approach (represented by the `Model
 * **Component Relationships**: The drone consists of a body. Attached to the body are four arms, and each arm features a fan cover and rotating fan blades.
 * **Transformations**: Transformations (scaling, translation, rotation) applied to parent nodes (like the body) naturally propagate down to children (like the arms and blades). 
 
-To visualize this hierarchy, refer to the model diagram:
-
-<iframe src="assets/Model.pdf" width="100%" height="600px"></iframe>
+To visualize this hierarchy, refer to the [model diagram](assets/Model.pdf)
 
 ### Path and Motion along Curves
 
@@ -75,6 +73,4 @@ When operating in Simulation Mode (`MODE=1`), the quadcopter follows an intricat
 * **Curve Evaluation**: The path is composed of multiple segments of cubic curves (managed by the `Curve` and `Path` classes). The simulation incrementally evaluates the curve at parameter `t` to determine the drone's position in 3D space (`currentPos`).
 * **Orientation via Tangents**: The curve's tangent gives the primary direction of the drone's movement. By finding the cross product between the old and new tangents, the program calculates the correct axis polynomial and angle over which to rotate the hierarchical model, allowing it to realistically tilt and bank into corners.
 
-To understand the mathematics and logic behind the curve motion, refer to the motion diagram:
-
-<iframe src="assets/Motion.pdf" width="100%" height="600px"></iframe>
+To understand the mathematics and logic behind the curve motion, refer to the [motion diagram](assets/Motion.pdf).
