@@ -66,8 +66,7 @@ The drone is constructed using a scene graph approach (represented by the `Model
 
 To visualize this hierarchy, refer to the model diagram:
 
-![Drone Hierarchical Model](assets/Model.pdf)
-*[Click here to view Model.pdf directly](assets/Model.pdf) if your viewer does not support PDF image previews.*
+<iframe src="assets/Model.pdf" width="100%" height="600px"></iframe>
 
 ### Path and Motion along Curves
 
@@ -78,5 +77,4 @@ When operating in Simulation Mode (`MODE=1`), the quadcopter follows an intricat
 
 To understand the mathematics and logic behind the curve motion, refer to the motion diagram:
 
-![Drone Motion Strategy](assets/Motion.pdf)
-*[Click here to view Motion.pdf directly](assets/Motion.pdf) if your viewer does not support PDF image previews.*
+<iframe src="assets/Motion.pdf" width="100%" height="600px"></iframe>
