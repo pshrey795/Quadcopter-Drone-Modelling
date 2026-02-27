@@ -1,7 +1,7 @@
 #ifndef SHAPE_HPP
 #define SHAPE_HPP
 
-#include<bits/stdc++.h>
+#include"stdc++.h"
 #include "glad/glad.h"
 #include<GLFW/glfw3.h>
 #include<glm/glm.hpp>

@@ -1,7 +1,7 @@
 #ifndef SHADER_HPP
 #define SHADER_HPP
 
-#include<bits/stdc++.h>
+#include"stdc++.h"
 #include "glad/glad.h"
 #include<glm/glm.hpp>
 #include<glm/gtc/matrix_transform.hpp>
